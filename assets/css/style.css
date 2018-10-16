@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(177, 177, 177);
+    margin: 0px;
+    padding: 0px
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 0 40px 0;
+    
+    border-bottom: 2px solid blue;
+    
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: blue 3px 2px 0;
+    position: relative;
+  }
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+#ncaa-img, #hangman-image, #Hangman-Data, #hangman-gameplay {
+    height: 350px;
+    border: 2px solid black;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border-top: 2px solid blue;
+}
+
+  
