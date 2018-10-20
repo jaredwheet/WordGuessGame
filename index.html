@@ -4,26 +4,36 @@
         <title>College Nickname Hangman!</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
 
 
     </head>
     <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        
+
         <div id="header">
-            <h1 id="Header-Text">NCAA College Nickname Hangman</h1>
+            <h1 id="Header-Text">College Nickname Hangman</h1>
         </div>
         
         <div id="main-content">
             <div id="College-Image">
                 <img id='ncaa-img' src="https://www.ncaa.com/modules/custom/casablanca_core/img/sportbanners/ncaa.png" alt="NCAA" />
             </div>
-            <div id="Hangman-Data">         
-                    <p>Guesses Left:</p>
-                    <p>Score:</p>                    
+            <div id="Hangman-Data">
+                    <p id="any-key">Press any letter to guess!</p>          
+                    <p id="score">Score:</p>                     
+                    <p id="guesses-left">Guesses Left:</p> 
+                    <p id="guesses-number">10</p>
+                    <p id="blank-answer">____________</p>  
             </div>
+
             <div id="hangman-gameplay">
-                    <p>College or University:</p>
-                    <p>Press any letter to guess!</p>
-                    <p>Letters Used:</p>
+                    <p id="college-header">College or University:</p>
+                    <p id="college">Enter school here...</p>
+                    <p id="letters-used">Letters Used:</p>
+                    <p id="letters-used-area"></p>
             </div>
             <div id="hangman-image">
                 <img id="hangman" src ="http://upload.wikimedia.org/wikipedia/commons/8/8b/Hangman-0.png" alt="hangman" />
@@ -34,6 +44,8 @@
         <footer>
             <p> &copy | Copyright | 2018 | Jared Wheet</p>
         </footer>
+
+        <script src="assets/javascript/game.js"></script>
 
     </body>
 </html>
